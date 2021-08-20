@@ -1,0 +1,218 @@
+body{
+    color: #f7f7f7;
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.nav-menu > ul {
+    display: flex;
+}
+
+
+.nav-menu > ul > li{
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 28px;
+
+
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+.home{
+    height: 100vh;
+    background: #124272;
+    width: 100%;
+}
+
+.home h2{
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.scrolled{
+    background: #124272 !important;
+    transition: .3s ease !important;
+}
+.astronaut-image{
+    position: relative;
+    float: left;
+    left: 5%;
+    bottom: 8%;
+    width: 70%;
+    height: auto;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.pc-image{
+    position: relative;
+    right: 8%;
+    width: 60%;
+    float: right;
+    height: auto;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.cog-1-image{
+    position: relative;
+    top: 18%;
+    left: 0;
+    width: 20%;
+    float: left;
+    height: auto;
+    animation-name: floating;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.alarm-image{
+    position: relative;
+    top: 12%;
+    right: 5%;
+    width: 15%;
+    float: right;
+    height: auto;
+    animation-name: floating;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.picture-image{
+    position: relative;
+    top: 65%;
+    right: 12%;
+    width: 18%;
+    float: left;
+    height: auto;
+    animation-name: floating;
+    animation-duration: 3.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.cog-2-image{
+    position: relative;
+    left: 15%;
+    bottom: 6%;
+    width: 10%;
+    float: right;
+    height: auto;
+    animation-name: floating;
+    animation-duration: 2.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background: #fff;
+    color: #124272;
+}
+
+.about-info-top img{
+    margin-bottom: 2em;
+}
+
+.about-info-body h2{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Poppins;
+}
+
+.about-info-body h4{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #ff553b;
+    margin-top: 2em;
+}
+
+.about-info-body p{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 300;
+    color: #124272;
+    margin-top: 2em;
+    line-height: 2;
+}
+
+.about-image img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* @media only screen and(max-width:1024px) {
+    .astronaut-image{
+        position: relative;
+        float: left;
+        left: 10%;
+        bottom: 8%;
+        width: 65%;
+        height: auto;
+    }
+    
+    .pc-image{
+        position: relative;
+        width: 55%;
+        float: right;
+        height: auto;
+    }
+    
+    .cog-1-image{
+        position: relative;
+        top: 18%;
+        left: 0;
+        width: 15%;
+        float: left;
+        height: auto;
+    }
+    
+    .alarm-image{
+        position: relative;
+        top: 12%;
+        right: 5%;
+        width: 10%;
+        float: right;
+        height: auto;
+    }
+    
+    .picture-image{
+        position: relative;
+        top: 65%;
+        right: 8%;
+        width: 13%;
+        float: left;
+        height: auto;
+    }
+} */
