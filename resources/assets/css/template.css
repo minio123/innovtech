@@ -5,7 +5,6 @@ body{
 }
 
 .page-content{
-    background-image: url('../img/body/header_mood_2.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
