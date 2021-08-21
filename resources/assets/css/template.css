@@ -5,7 +5,7 @@ body{
 }
 
 .page-content{
-    
+    background-image: url('../img/body/header_mood_2.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
