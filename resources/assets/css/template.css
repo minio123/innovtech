@@ -6,6 +6,12 @@ body{
 
 .page-content{
     background: url('../img/body/header_mood_2.png');
+    -webkit-background: url('../img/body/header_mood_2.png');
+    -moz-background:  url('../img/body/header_mood_2.png');
+    -o-background:  url('../img/body/header_mood_2.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
